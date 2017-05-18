@@ -1,0 +1,35 @@
+body{
+	background: red;
+}
+
+header{
+	float: left;
+
+}
+
+.wrap header h1{
+
+}
+
+.wrap header nav{
+
+}
+
+.main{
+	margin-top:30px;
+}
+
+.primary section div{
+	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
+.list-unstyled{
+	margin-top: 25px;
+	list-style:none;
+}
+
+.list-unstyled li{
+	display: inline;
+}

@@ -1,0 +1,163 @@
+@charset="utf-8";
+
+body{
+	font-family: '微软雅黑',arial,sans-serif;
+	font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.header{
+	margin-top: 35px;
+}
+
+.header nav ul{
+	list-style: none;
+	float: right;
+}
+
+.header nav ul li{
+	display: inline;
+}
+
+.header nav ul li a{
+	text-decoration: none;
+	color: #7b7b7b;
+}
+
+.header nav ul li a.active{
+	font-weight: bolder;
+	color: #000;
+}
+
+.top-lower{
+	clear:left;
+}
+
+.banner{
+	height: 233px;
+	background: url('../images/banner-city.jpg') no-repeat;
+}
+
+.banner h2{
+	position: relative;
+	float: left;
+	margin-top: 120px;
+}
+
+.banner h2 span{
+	background: rgba(45, 28, 18, 0.26);
+}
+
+.box{
+	height: 233px;
+	background: black;
+}
+
+.main{
+	margin-top: 30px;
+}
+
+.btn{
+	background: #000;
+	color:#fff;
+	padding: 5px 10px;
+}
+
+a.btn:hover{
+	background: #ccc;
+}
+
+.blockquote p {
+  quotes: "“" "”";
+}
+
+.blockquote p span{
+	margin-top: 10px;
+	margin-left: 12px;
+	display: inline;
+	float: left;
+	font-style: italic;
+}
+.blockquote p:before {
+	color: #ddd;
+	position: absolute;
+    content: open-quote;
+    font-size: 40px;
+    margin-left: -30px;
+}
+.blockquote p:after {
+	content: close-quote;
+	color: #ddd;
+	position: absolute;
+	margin-left: -14px;
+	margin-top: 40px;
+    font-size: 40px;
+}
+
+.blockquote small{
+	margin-top: 20px;
+	float: right;
+}
+
+.blockquote small span{
+	float: right;
+	font-style: italic;
+}
+
+footer{
+	width: 100%;
+	float: left;
+	border-top: 1px solid #ddd;
+}
+
+footer p{
+	margin-top: 20px;
+}
+
+footer p a{
+	text-decoration: none;
+	color:#7b7b7b;
+}
+
+
+/*
+服务项目样式
+*/
+
+.post-img{
+	margin-bottom: 30px;
+}
+
+.text-color{
+	color:#777;
+}
+
+.aside_bg{
+	background: #000;
+	min-height: 580px;
+}
+
+.aside_bg ul{
+	margin-top: 20px;
+}
+
+.aside_bg ul li{
+	list-style: disc;
+	color: #fff;
+}
+
+.aside_bg ul li:nth-child(1){
+	list-style: none;
+	margin-left: 15px
+}
+
+.aside_bg h2,.aside_bg p{
+	color:#fff;
+}

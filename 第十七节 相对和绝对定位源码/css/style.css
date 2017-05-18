@@ -1,0 +1,19 @@
+body{
+	background: blue;
+}
+
+div.box1{
+	width: 40px;
+	height: 40px;
+	background: red;
+	position: relative;
+}
+
+div.box2{
+	width: 40px;
+	height: 40px;
+	background: red;
+	right: 0px;
+	top: 50%;
+	position: absolute;
+}

@@ -1,0 +1,21 @@
+form ul {
+	padding-left: 0;
+}
+
+form ul li{
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+	padding-bottom: 10px;
+	font-family: '微软雅黑';
+	font-weight: bold;
+}
+
+textarea{
+    width: 360px;
+    height: 120px;
+}
